@@ -9,6 +9,7 @@ from keras.models import Model, Input
 # plot part.
 import matplotlib.pyplot as plt
 
+'''code from https://github.com/deepak-kaji/mimic-lstm/blob/master/attention_function.py'''
 
 # ## Helper functions
 
