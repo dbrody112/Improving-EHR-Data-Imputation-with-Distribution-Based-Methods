@@ -30,6 +30,8 @@ from sklearn.metrics import confusion_matrix, accuracy_score, roc_auc_score, cla
 from sklearn.metrics import recall_score, precision_score
 from sklearn.model_selection import StratifiedKFold
 
+'''code from https://github.com/deepak-kaji/mimic-lstm/blob/master/rnn_mimic.py'''
+
 ROOT = "./mimic_database/mapped_elements/"
 FILE = "CHARTEVENTS_reduced_24_hour_blocks_plus_admissions_plus_patients_plus_scripts_plus_icds_plus_notes.csv"
 
